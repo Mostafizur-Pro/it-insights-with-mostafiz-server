@@ -35,11 +35,12 @@ const getAllVoc = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IEnglish[]>(res, {
     statusCode: 400,
     success: true,
-    message: "Students retrieved successfully !",
+    message: "Vocabulary get successfully !",
     meta: result.meta,
     data: result.data,
   });
 });
+
 export default {
   createVoc,
   getAllVoc,

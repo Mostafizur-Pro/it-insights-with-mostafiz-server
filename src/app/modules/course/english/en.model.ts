@@ -16,6 +16,10 @@ const englishSchema = new Schema<IEnglish>({
       type: String,
       required: true,
     },
+    bangla: {
+      type: String,
+      required: true,
+    },
     synonyms: {
       type: String,
       required: true,
